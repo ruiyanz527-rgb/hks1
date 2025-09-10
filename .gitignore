@@ -1,0 +1,34 @@
+﻿# Dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Builds
+dist/
+build/
+coverage/
+
+# Runtime caches
+.pnpm-store/
+.next/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+
+# Editor
+.vscode/
+.idea/
+
+# Uploads (uncomment if you want to track)
+uploads/

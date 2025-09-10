@@ -1,0 +1,19 @@
+{
+  "name": "academic-matcher",
+  "version": "1.0.0",
+  "description": "基于兴趣/学科的学术匹配系统",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": ["matching", "academic", "research", "tinder"],
+  "author": "Academic Matcher Team",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
